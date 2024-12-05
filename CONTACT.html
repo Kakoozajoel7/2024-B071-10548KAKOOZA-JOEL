@@ -34,7 +34,8 @@ h6{
     </style>
     <h4> CONTACT FORM</h4>
     <h6>For more information you can subscribe to me page </h6>
-    <form>
+    <form  action="/action_page.php" method="post">>
+        <script>
         <br>
         <div>
         <label for="fname">FIRST NAME</label>
@@ -67,12 +68,16 @@ h6{
         <input type="text" class="message"placeholder="MESSAGE">
     </div>
         
-
+<form action="/action_page.php" method="post">
+  <input type="text" name="fname" required>
+  <input type="submit" value="Submit">
+</form>
     
 
 
 
     </form>
+</script>
     <P></P>
     
 </body>
